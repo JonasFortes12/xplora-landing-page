@@ -1,5 +1,7 @@
 import Image from "next/image";
 import App from "@/components/ui/HeroCard";
+import XploraHero from "@/components/Hero";
+import HeroButton from "@/components/ui/HeroButton";
 
 import { Button } from "@/components/ui/button";
 
@@ -14,7 +16,12 @@ import {
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center  min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] justify-between">
+    
+    <div className="flex flex-col items-center  min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]  ">
+      <div>
+        <XploraHero></XploraHero> 
+      </div>
+      
       <Button>Botão teste do Shadcnui</Button>
       <div className="justify-between">
         <Card className="w-[350px]">
