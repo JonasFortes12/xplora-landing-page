@@ -1,11 +1,12 @@
 import Image from "next/image";
+import App from "@/components/ui/HeroCard";
 
 import { Button } from "@/components/ui/button";
 
 import {
   Card,
   CardContent,
-  CardDescription,
+  CardDescription,  
   CardFooter,
   CardHeader,
   CardTitle,
@@ -13,10 +14,10 @@ import {
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col items-center  min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] justify-between">
       <Button>Botão teste do Shadcnui</Button>
-
-      <Card className="w-[350px]">
+      <div className="justify-between">
+        <Card className="w-[350px]">
         <CardHeader>
           <CardTitle>Card Exemplo Shadcnui</CardTitle>
           <CardDescription>Card Description</CardDescription>
@@ -27,7 +28,10 @@ export default function Home() {
         <CardFooter>
           <p>Card Footer</p>
         </CardFooter>
-      </Card>
+        </Card>
+          <App></App>
+      </div>
+      
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
