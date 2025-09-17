@@ -1,7 +1,8 @@
 import Image from "next/image";
 import HeroButton from "./ui/HeroButton";
 
-function ButtonFallback({ children }: { children: React.ReactNode }) {
+function 
+ButtonFallback({ children }: { children: React.ReactNode }) {
   return <HeroButton></HeroButton>;
 }
 
