@@ -31,7 +31,7 @@ export default function BenefitsSection() {
         
         <div className="absolute inset-0 flex justify-end items-center">
           <Image
-            src="/Images/fundo-logo.png"
+            src="/Images/fundo-logo.webp"
             alt="Logo Xplora"
             width={400}
             height={400}
@@ -48,14 +48,14 @@ export default function BenefitsSection() {
             icon ={<BiMessageEdit size={48}  />}
             title="EVITE RETRABALHO"
             description="Com o Xplora, seu cliente identifica e aprova acabamentos, analisa a iluminação e detalhes em tempo real durante o tour, eliminando revisões manuais e retrabalhos inesperados."
-            image="/Images/Benefit.png"
+            image="/Images/Benefit.webp"
           />
 
           <BenefitCard
             icon={<BiAward  size={48}/>}
             title="FORNEÇA MAIS VALOR E UMA EXPERIÊNCIA PREMIUM"
             description="Destaque-se no mercado oferecendo uma experiência VIP: seus clientes personalizam texturas e ajustam a incidência luminosa em tempo real, vivenciando o projeto como se já estivessem dentro dele — tudo isso eleva a percepção de valor e consolida seu portfólio como referência em inovação."
-            image="/Images/Benefit.png"
+            image="/Images/Benefit.webp"
             reverse
           />
 
@@ -63,7 +63,7 @@ export default function BenefitsSection() {
             icon={<BiWorld size={48} />}
             title="NÃO FIQUE FORA DAS TENDÊNCIAS"
             description="Mergulhe na era do 3D e mostre que sua empresa está na vanguarda: navegação fluida estilo videogame, realidade virtual e tours interativos são tendências que transformam a forma de apresentar projetos e encantam clientes antenados no que há de mais moderno."
-            image="/Images/Benefit.png"
+            image="/Images/Benefit.webp"
             showDivider={false}
 
           />
