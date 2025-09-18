@@ -1,7 +1,7 @@
 import Image from "next/image";
-import App from "@/components/ui/HeroCard";
+import Benefits from "@/components/Benefits";
 import XploraHero from "@/components/Hero";
-import { Button } from "@/components/ui/button";
+
 import {
   Card,
   CardContent,
@@ -13,10 +13,11 @@ import {
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
-      
-      
+    <div className="flex flex-col items-center min-h-screen  font-[family-name:var(--font-geist-sans)]">
       <XploraHero/>
+      <Benefits/>
+      
     </div>
+    
   );
 }
