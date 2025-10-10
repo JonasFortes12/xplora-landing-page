@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Benefits from "@/components/Benefits";
 import XploraHero from "@/components/Hero";
-import HowToUseTabs from "@/components/tabs"
+import HowToUseTabs from "@/components/Tabs"
 
 import {
   Card,
