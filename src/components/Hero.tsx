@@ -18,7 +18,7 @@ export default function XploraHero() {
             alt="Ambiente virtual"
             width={100}
             height={100}
-            className=""
+            className=""  
             quality={100}
             priority
           />
