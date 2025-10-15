@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Benefits from "@/components/Benefits";
 import XploraHero from "@/components/Hero";
-import HowToUseTabs from "@/components/Tabs"
+import HowToUseTabs from "@/components/tabs"
+import Features from "@/components/Features";
 
 import {
   Card,
@@ -19,6 +20,7 @@ export default function Home() {
       <XploraHero/>
       <Benefits/>
       <HowToUseTabs></HowToUseTabs>
+      <Features></Features>
       
       
     </div>
