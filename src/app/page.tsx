@@ -1,6 +1,7 @@
 import Benefits from "@/components/Benefits";
 import XploraHero from "@/components/Hero";
 import HowToUseTabs from "@/components/tabs"
+import ComparisonTable from "@/components/ComparisonTable";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testemonials";
 
@@ -22,6 +23,8 @@ export default function Home() {
       <HowToUseTabs></HowToUseTabs>
       <Features></Features>
       <Testimonials></Testimonials>
+      <ComparisonTable></ComparisonTable>
+
       
       
     </div>
