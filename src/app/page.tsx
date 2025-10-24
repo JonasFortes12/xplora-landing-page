@@ -2,6 +2,7 @@ import Image from "next/image";
 import Benefits from "@/components/Benefits";
 import XploraHero from "@/components/Hero";
 import HowToUseTabs from "@/components/tabs"
+import ComparisonTable from "@/components/ComparisonTable";
 import Features from "@/components/Features";
 
 import {
@@ -21,6 +22,8 @@ export default function Home() {
       <Benefits/>
       <HowToUseTabs></HowToUseTabs>
       <Features></Features>
+      <ComparisonTable></ComparisonTable>
+
       
       
     </div>
