@@ -1,10 +1,7 @@
 import Image from "next/image";
 import HeroButton from "./ui/HeroButton";
 
-function 
-ButtonFallback({ children }: { children: React.ReactNode }) {
-  return <HeroButton></HeroButton>;
-}
+
 
 export default function XploraHero() {
   return (
@@ -33,7 +30,7 @@ export default function XploraHero() {
           </p>
 
           <div className="mt-8">
-            <ButtonFallback>Começar</ButtonFallback>
+            <HeroButton label="Começar" className=""></HeroButton>
           </div>
         </div>
 

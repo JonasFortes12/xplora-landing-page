@@ -4,6 +4,7 @@ import HowToUseTabs from "@/components/tabs"
 import ComparisonTable from "@/components/ComparisonTable";
 import Features from "@/components/Features";
 import Testimonials from "@/components/Testemonials";
+import FaqSection from "@/components/Faq";
 
 import {
   Card,
@@ -24,6 +25,8 @@ export default function Home() {
       <Features></Features>
       <Testimonials></Testimonials>
       <ComparisonTable></ComparisonTable>
+      <FaqSection></FaqSection>
+      
 
       
       
